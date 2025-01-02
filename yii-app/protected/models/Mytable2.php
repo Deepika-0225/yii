@@ -34,6 +34,11 @@ class Mytable2 extends CActiveRecord
 		);
 	}
 
+
+
+
+
+	
 	/**
 	 * @return array relational rules.
 	 */
