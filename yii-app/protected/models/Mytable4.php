@@ -10,6 +10,10 @@ class Mytable4 extends CActiveRecord
 		return 'mytable4';
 	}
 
+	public function action(){
+		echo "hello world";
+	}
+
 	/**
 	 * @return array validation rules for model attributes.
 	 */
