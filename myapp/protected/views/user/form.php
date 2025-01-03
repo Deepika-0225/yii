@@ -19,6 +19,12 @@ $form = $this->beginWidget('CActiveForm', array(
     </div>
 
     <div class="row">
+        <?php echo $form->labelEx($model, 'gender'); ?>
+        <?php echo $form->textField($model, 'gender'); ?>
+        <?php echo $form->error($model, 'gender'); ?>
+    </div>
+
+    <div class="row">
         <?php echo $form->labelEx($model, 'email'); ?>
         <?php echo $form->textField($model, 'email'); ?>
         <?php echo $form->error($model, 'email'); ?>
